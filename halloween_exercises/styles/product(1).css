@@ -13,7 +13,7 @@ body{
     background-repeat:repeat-x;
     background-repeat: repeat-y;
 }
-.head1{
+.{
     font-size: 40px;
     color: orange;
     font-style: italic;
@@ -21,7 +21,7 @@ body{
     text-shadow: black;
     margin-top: 0;
 }
-.head2{
+.1{
     font-size:20px;
 }
 h2{
@@ -29,7 +29,8 @@ h2{
     
 }
 h3{
-    font-size: 20px;    
+    font-size: 20px;
+    
 }
 img{
     float: left;
@@ -41,7 +42,10 @@ h1{
     text-transform: capitalize;
     
 }
-
+p.2{
+    font-size: 15px;
+    text-align: center;
+}
 a{
     color: orange;
     font-weight: bold;
@@ -71,14 +75,14 @@ header{
 }
 footer{
     background:linear-gradient(45deg, white, orange 75%, black) !important;
-    border-top:3px solid black;
+    border-top:2px solid black;
     linear-gradient(45deg, white, orange 75%, black);
 }
 
-a.{
+a.3{
     transition: color 1s ease-in 1s;
 }
-a.:hover{
+a.3:hover{
     color: gray;
 }
 
@@ -110,10 +114,10 @@ a.:hover{
     display: block;
     clear: both;
 }
-.background2{
+.background1{
     color: white;
 }
-.background1{
+.background2{
     background-color: black;
 }
 .Q{
@@ -122,9 +126,5 @@ a.:hover{
 .Z{
    background-color: none;
 }
-.c{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 20px;
+.C{
 }

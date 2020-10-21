@@ -46,7 +46,6 @@ a{
     color: orange;
     font-weight: bold;
     margin-left: 0px;
-    transition: color 1s ease-in 1s;
     text-decoration: none;
 }
 a:hover{
@@ -73,11 +72,9 @@ footer{
     background:linear-gradient(45deg, white, orange 75%, black) !important;
     border-top:3px solid black;
     linear-gradient(45deg, white, orange 75%, black);
+    text-align: center;
 }
 
-a.{
-    transition: color 1s ease-in 1s;
-}
 a.:hover{
     color: gray;
 }
@@ -86,7 +83,7 @@ a.:hover{
     list-style:none;
     position: relative;
     margin: auto;
-    padding-inline-start:0px;
+    padding:0px;
     background-color: black !important;
 }
 #nav_menu ul li{
@@ -115,16 +112,4 @@ a.:hover{
 }
 .background1{
     background-color: black;
-}
-.Q{
-    font-size: 20px;
-}
-.Z{
-   background-color: none;
-}
-.c{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 20px;
 }
