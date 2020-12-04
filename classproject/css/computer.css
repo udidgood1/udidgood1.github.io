@@ -1,0 +1,42 @@
+html{
+    width: 100%;
+    background-image: url(QQ%E5%9B%BE%E7%89%8720201204190439.jpg);
+}
+body{
+    width: 100%;
+}
+header{
+    height: 200px;
+    border-bottom: 1px solid pink;
+}
+main{
+    height: 750px;
+}
+footer{
+    height: 50px;
+    border-top: 1px solid pink;
+}
+.nav_1{
+    margin: 50px auto;
+    background-color: blue;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+.nav_1>ul{
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    width: 960px;
+}
+.nav_1>ul>li{
+    float: left;
+}
+.nav_1>ul>li>a{
+    display: block;
+    width: 100px;
+    color: red;
+    text-align: center;
+}
+.nav_1>ul>li>a:hover{
+    color: blue;
+}
